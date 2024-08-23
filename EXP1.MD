@@ -15,7 +15,7 @@ Cases
 5. Stop the program.
 ### Program:
 #### do...while
-
+```
 def display():
     start=input("Enter a positive value for START: ")
     end=input("Enter a positive value for END: ")
@@ -31,9 +31,9 @@ def display():
     else:
         print("Enter a valid positive number.")
 display() 
-
+```
 #### while
-
+```
 start=input("Enter a positive value for START: ")
 end=input("Enter a positive value for END: ")
 if start.isnumeric() and end.isnumeric():
@@ -44,9 +44,9 @@ if start.isnumeric() and end.isnumeric():
         start+=1
 else:
     print("Enter a valid positive number.") 
-
+```
 #### switch
-
+```
 def switch():
     switcher={0:"even",1:"odd"}
     n=input('Enter a value for N: ')
@@ -56,9 +56,9 @@ def switch():
     except ValueError:
         print("Enter a valid number.")
 switch() 
-
+```
 #### if...else
-
+```
 def compare():
     a=input("Enter a value for A: ")
     b=input("Enter a value for B: ")
@@ -75,10 +75,12 @@ def compare():
         print("Enter a valid number.")
 
 compare()
-
+```
 ### Output:
 
 
 
 ### Result:
 Thus, the python program to demonstrate the working of given constructs is implemented and the output is verified successfully.
+
+
